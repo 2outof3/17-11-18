@@ -7,3 +7,6 @@ node_modules
 
 # secrets... d'uh
 secrets.js
+
+# webpack output
+/*.main
