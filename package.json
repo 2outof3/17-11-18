@@ -1,5 +1,5 @@
 {
-  "name": "APPNAME",
+  "name": "17-11-18",
   "version": "0.1.0",
   "description": "My boilerplate for fullstack apps using React/Redux + Sequelize/Postgres with the option to use websockets",
   "engines": {
