@@ -212,3 +212,7 @@ button:hover {
 	background: #814982;
 	color: #fff;
 }
+.greeting {
+	padding: 2rem;
+    text-align: center;
+}
