@@ -212,3 +212,24 @@ button:hover {
 	background: #814982;
 	color: #fff;
 }
+
+.greeting {
+	padding: 2rem 4rem 0rem 4rem;
+	text-align: center;
+}
+
+.intro {
+	padding: 1.5rem 4rem 0rem 4rem;
+	text-align: left;
+}
+
+.quote {
+	padding:0rem 4rem 0rem 4rem;
+	text-align: center;
+	font-style: italic;
+}
+
+.close {
+	padding: 1rem 4rem 2rem 4rem;
+	text-align: right;
+}
