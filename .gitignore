@@ -1,0 +1,12 @@
+# project-specific folders and files
+public/bundle.js
+public/bundle.js.map
+
+# installed packages
+node_modules
+
+# secrets... d'uh
+secrets.js
+
+# webpack output
+output/**
