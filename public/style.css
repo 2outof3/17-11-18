@@ -216,20 +216,25 @@ button:hover {
 .greeting {
 	padding: 2rem 4rem 0rem 4rem;
 	text-align: center;
+	color: #2C333A;
 }
 
 .intro {
 	padding: 1.5rem 4rem 0rem 4rem;
 	text-align: left;
+	color: #2C333A;
 }
 
 .quote {
 	padding:0rem 4rem 0rem 4rem;
 	text-align: center;
 	font-style: italic;
+	color: #2C333A;
 }
 
 .close {
-	padding: 1rem 4rem 2rem 4rem;
+	padding: 1rem 1rem 1rem 1rem;
+	margin: 0rem 20rem 0rem 0rem;
 	text-align: right;
+	color: #2C333A;
 }

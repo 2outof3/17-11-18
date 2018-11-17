@@ -17,7 +17,7 @@ class Landing extends React.Component {
 	}
 
 	async getLocale(){
-		const data = {gb: {title: 'Hallo Welt!', intro: 'Und jetzt höre diese Worte der Weisheit...', content: 'Nehmen Sie die Krone ab. Soziale Netzwerke bestimmen nicht das Kaliber einer Person. Du sagst, ich war Reggaeton. Sag auch, dass ich Tango war. Bossa Nova, Cumbia, Batucada, Mambo. Fusion ist das Konzept!'}}
+		const data = {gb: {title: 'Hallo Welt!', intro: 'Und jetzt höre diese Worte der Weisheit', content: 'Nehmen Sie die Krone ab. Soziale Netzwerke bestimmen nicht das Kaliber einer Person. Du sagst, ich war Reggaeton. Sag auch, dass ich Tango war. Bossa Nova, Cumbia, Batucada, Mambo. Fusion ist das Konzept!'}}
 		const result = await util(data)
 		this.setState({title: result.title, intro: result.intro, content: result.content})
 	}
@@ -26,9 +26,9 @@ class Landing extends React.Component {
 		return (
 		<div>
 			<h1 className="greeting">{this.state.title}</h1>
-			<h5 className="intro">{this.state.intro}</h5>
-			<h4 className="quote">"{this.state.content}"</h4>
-			<h5 className="close">-Residente</h5>
+			<h3 className="intro">{this.state.intro}...</h3>
+			<h2 className="quote">"{this.state.content}"</h2>
+			<h3 className="close">-  Residente</h3>
 		</div>
 		)
 	}
