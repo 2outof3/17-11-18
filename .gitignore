@@ -9,5 +9,4 @@ node_modules
 secrets.js
 
 # webpack output
-main/**/js
-main/**/map
+output/**
