@@ -23,6 +23,7 @@ module.exports = {
   output: {
     path: __dirname,
     filename: 'output/[name].[contenthash].js' // app ejection point here (all bundled up!)
+    // filename: 'public/bundle.js' // app ejection point here (all bundled up!)
   },
   plugins: [
     new CleanWebpackPlugin(['dist'])
