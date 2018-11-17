@@ -10,9 +10,10 @@
 		"phoneNumber": "+356 152 815 8735"
 	},
 	{
-		"firstName": "Maëlla",
-		"lastName": "Wrennall",
+		"firstName": "Iván",
+		"lastName": "Felix",
 		"teamId": 8,
+		"isCEO":true,
 		"jobTitle": "Mechanical Systems Engineer",
 		"favColor": "Purple",
 		"gender": "Female",
